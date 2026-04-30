@@ -1,0 +1,376 @@
+/* ====GENERICS=== */
+body:has(.login-page) .container {
+    background: transparent;
+    padding: 0 !important;
+    max-width: 100%;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* ====LOGIN ==== */
+.login-page {
+    min-height: 100vh;
+    background: linear-gradient(145deg, #006668, #00ced1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2.5rem 2rem 2rem;
+    width: 100%;
+    max-width: 360px;
+    border-top: 4px solid #00ced1;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.login-card h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.login-card input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    background: #fafafa;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+}
+
+.login-card input:focus {
+    border-color: #00ced1;
+    box-shadow: 0 0 0 3px rgba(0, 206, 209, 0.18);
+    background: #ffffff;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 11px;
+    background-color: #00ced1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.login-card button:hover {
+    background-color: #00b3b3;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    margin-top: 0.75rem;
+    padding: 10px 14px;
+    background-color: #fff0f0;
+    border: 1px solid #f7c1c1;
+    border-radius: 8px;
+    color: #a32d2d;
+    font-size: 13px;
+}
+
+.login-logo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+
+.login-logo-icon {
+    width: 38px;
+    height: 38px;
+    background: #00ced1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.login-logo-text {
+    font-family: 'Sora', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: -0.5px;
+}
+
+.login-logo-text span {
+    color: #00ced1;
+}
+
+.login-tagline {
+    text-align: center;
+    font-size: 11px;
+    color: #9ca3af;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.divisore {
+    height: 1px;
+    background: #afafaf;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.userinput {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+.inputwrapper {
+    position: relative;
+    margin-bottom: 1.1rem;
+}
+
+.input-wrap input {
+    padding-left: 38px;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 11px;
+    background-color: #00ced1;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card button:active {
+    transform: scale(0.98);
+}
+
+/* ====NAVBAR==== */
+.custom-navbar {
+    background-color: #f0f0f0;
+    border-bottom: 3px solid #00ced1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo-text {
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.text-turquoise {
+    color: #00ced1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #555;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00ced1;
+}
+
+.navbar-btn {
+    background-color: #00ced1;
+    color: #efefef;
+    border: 1px solid #00ced1;
+    transition: all 0.3s ease;
+}
+
+.navbar-btn:hover {
+    background-color: #00b3b3;
+    border-color: #00b3b3;
+    color: #efefef;
+}
+
+/* ====TRAVEL LIST=== */
+.btn-turchese {
+    background-color: #03b4b7;
+    color: #efefef;
+    border: none;
+}
+
+.btn-turchese:hover {
+    background-color: #00afb2;
+    color: #efefef;
+}
+
+.viaggio-active {
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid #00ced1;
+    border-radius: 14px;
+    transition: box-shadow 0.18s, transform 0.18s;
+}
+
+.viaggio-active:hover {
+    box-shadow: 0 8px 24px rgba(0, 206, 209, 0.13);
+    transform: translateY(-2px);
+}
+
+.viaggio-dest {
+    font-family: 'Sora', sans-serif;
+    color: #1a1a1a;
+}
+
+.viaggio-btn {
+    background: transparent;
+    border: 1.5px solid #00ced1;
+    color: #00ced1;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.viaggio-btn:hover {
+    background: #00ced1;
+    color: #fff;
+}
+
+/* ====ATTENDEES LIST==== */
+.avatar-placeholder {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00ced1, #00afb2);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 4px 10px rgba(0, 206, 209, 0.25);
+    border: 2px solid #ffffff;
+    transition: all 0.25s ease;
+    margin-bottom: 10px;
+}
+
+.search:focus {
+    border-color: #00ced1;
+    box-shadow: 0 0 0 0.2rem rgba(0, 206, 209, 0.25);
+    outline: none;
+}
+
+.viaggio-card {
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border-left: 5px solid transparent;
+    border-radius: 12px;
+}
+
+.viaggio-card:hover {
+    transform: translateX(6px) scale(1.01);
+    background-color: #f0ffff;
+    border-left: 5px solid #00ced1 !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cancel_btn {
+    background: transparent;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.15s ease;
+    border: none;
+}
+
+.cancel_btn:hover {
+    background: rgba(0, 150, 136, 0.25);
+}
+
+.x_icon {
+    transition: scale 0.15s ease, color 0.15s ease;
+    color: inherit;
+}
+
+.cancel_btn:hover .x_icon {
+    scale: 1.2;
+    color: #00796B;
+}
+
+.viaggio-card p {
+    color: #555;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.telefono-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.telefono-link:hover {
+    text-decoration: underline;
+}
+
+.maintitle {
+    color: #0099a8;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.subtitle {
+    color: #00ced1;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+/* ====FORMS==== */
+.title-background {
+    background-color: #00ced1;
+}
+
+.form-control:focus {
+    border-color: #00ced1;
+    box-shadow: 0 0 0 0.25rem rgba(0, 206, 209, 0.25);
+    outline: none;
+}
+
+.alert-turquoise {
+    background-color: #00ced1;
+    color: #efefef;
+}
+
+.alertButton {
+    background-color: #efefef;
+    color: #00ced1;
+    border: none;
+}
+
+.alertButton:hover {
+    background-color: #00afb2;
+    color: #efefef;
+}
