@@ -29,7 +29,7 @@ export default function AppHeader() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mx-2" to="#">
+                            <Link className="nav-link mx-2" to="/travel">
                                 <i className="bi bi-geo-alt me-1"></i> I miei Viaggi
                             </Link>
                         </li>
