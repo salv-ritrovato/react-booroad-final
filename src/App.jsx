@@ -6,6 +6,7 @@ import SingleTravel from "./pages/SingleTravel";
 import TravelList from "./pages/TravelList";
 import NewTravelForm from "./pages/NewTravelForm";
 import NewAttendeesForm from "./pages/NewAttendeesForm";
+import Calendar from "./pages/Calendar";
 import Login from "./pages/Login"
 import { GlobalContextProvider } from "./context/GlobalContext";
 
@@ -25,6 +26,7 @@ function App() {
               <Route element={<SingleTravel />} path="/travel/:id" />
               <Route element={<NewTravelForm />} path="/travel_form" />
               <Route element={<NewAttendeesForm />} path="/travel/:id/attendees_form" />
+              <Route element={<Calendar />} path="/calendar" />
             </Route>
           </Routes>
         </BrowserRouter>

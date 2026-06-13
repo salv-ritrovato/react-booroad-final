@@ -225,6 +225,10 @@ body {
     color: #efefef;
 }
 
+.bg-turchese {
+    background-color: #03b4b7;
+}
+
 .viaggio-active {
     border: 1px solid #e5e7eb;
     border-left: 4px solid #00ced1;
