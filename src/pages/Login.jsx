@@ -14,6 +14,8 @@ export default function Login({ onLogin }) {
         e.preventDefault()
         if (username === userAdmin && password === pswAdmin) {
             setLogin(true)
+            // se è l'admin allora è Mario Rossi
+            localStorage.setItem("username", "Mario Rossi");
             navigate('/travel');
         } else {
             setError('Credenziali errate. Riprova.')

@@ -34,13 +34,17 @@ export default function AppHeader() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mx-2" to="#">
+                            <Link className="nav-link mx-2" to="/calendar">
                                 <i className="bi bi-calendar3 me-1"></i> Calendario
                             </Link>
                         </li>
                     </ul>
                     {/* LOGOUT BUTTON */}
-                    <div className="d-flex">
+                    <div className="d-flex align-items-center">
+                        <span className="me-3 fw-semibold">
+                            <i className="bi bi-person-circle me-1"></i>
+                            {localStorage.getItem("username")}
+                        </span>
                         <Link to="/" className="text-decoration-none">
                             <button className="btn navbar-btn btn-sm d-flex align-items-center px-4 rounded-pill">
                                 <i className="bi bi-box-arrow-right me-2"></i>
